@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'ITC Avant Garde Gothic';
+    src: url('../fonts/AvantGardeCE-Demi.eot');
+    src: url('../fonts/AvantGardeCE-Demi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvantGardeCE-Demi.woff2') format('woff2'),
+        url('../fonts/AvantGardeCE-Demi.woff') format('woff'),
+        url('../fonts/AvantGardeCE-Demi.ttf') format('truetype'),
+        url('../fonts/AvantGardeCE-Demi.svg#AvantGardeCE-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('../fonts/ITCAvantGardeStd-Bold.eot');
+    src: url('ITCAvantGardeStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ITCAvantGardeStd-Bold.woff2') format('woff2'),
+        url('../fonts/ITCAvantGardeStd-Bold.woff') format('woff'),
+        url('../fonts/ITCAvantGardeStd-Bold.ttf') format('truetype'),
+        url('../fonts/ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+:root{
+	--primary-color:#15263e;
+}
+.header-area{
+	background-color: var(--primary-color);
+}
+.john-btn-primary{
+
+}
+
+.john-section-heading {
+  text-align: center;
+}
+
+.john-portfolio-content {
+  text-align: center;
+}
+
+.john-experience-content {
+  text-align: center;
+}
+
+.john-blog-contact {
+  text-align: center;
+}
